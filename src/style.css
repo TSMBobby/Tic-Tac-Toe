@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.tic-tac-toe {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    width: 310px;
+}
+
+.tic-tac-toe-cell {
+    width: 100px;
+    height: 100px;
+    background-color: #f2f2f2;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.tic-tac-toe-cell:hover {
+    background-color: #e0e0e0;
+}
